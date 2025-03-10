@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-    <link rel="stylesheet" href="styles.css"> 
-     
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <form>
-      <p>Enter Country Name</p>
-      <input type="text" id=name></input>
-      <input type="submit" value="Submit" id =button></input>
-    </form>
-    <section id=country-info></section>
-    <section id=bordering-countries ></section>
-    <script src="script.js"></script>
-    
-  
+  <form id="country-form">
+    <label>Enter country name :</label>
+    <input type="text" id="country-name" name="country-name">
+    <input type="submit" id="submit-button" value="Submit">
+  </form>
+ 
+  <section id="country-info">
+    <!-- Country information will appear here -->
+  </section>
+ 
+  <section id="bordering-countries">
+    <!-- Bordering countries information will appear here -->
+  </section>
 </body>
 </html>
-

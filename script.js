@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+
   const myButton = document.getElementById('button');
 
   myButton.addEventListener('click', function(event) {
@@ -38,8 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ;
   }
   
-  
-});
+
 
 
 

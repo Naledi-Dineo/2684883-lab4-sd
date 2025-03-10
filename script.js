@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if(!countryName){
       alert('Country not entered');
     }
-    fetchCountry(countryName)
+    fetchCountry(countryName);
   });
 
   const fecthCountry = async (country) =>{
@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <p>${data.population.toString()}</p>
       <p>${data.region}</p>
       <img src = "${data.image.png}" width "150">
+      ;
   }
   
   

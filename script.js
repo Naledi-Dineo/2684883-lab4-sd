@@ -30,9 +30,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const countryInfo = document.getElementById('country-info');
     const bodering = document.getElementById('bordering-countries');
 
-    countryInfo.innerHTML
-    
+    countryInfo.innerHTML = 
+      <p>${data.capital[0]}</p>
+      <p>${data.population.toString()}</p>
+      <p>${data.region}</p>
+      <img src = "${data.image.png}" width "150">
   }
+  
   
 });
 
